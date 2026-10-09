@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A, öldürmek kastıyla B'nin çayına zehir katar. B çayı içer ve fenalaşır. <br><br>Vicdan azabı çeken A, hemen <span class=\"text-[#2EE5D7] font-bold\">ambulans çağırıp B'yi kurtarır.</span><br><br>A'nın durumu hukuken nedir? 🤔",
+    "option_a": "Etkin pişmanlık (Cezası indirilir)",
+    "option_b": "Gönüllü vazgeçme (Hiç ceza almaz)",
+    "option_c": "Sadece kasten yaralamadan ceza alır",
+    "option_d": "Kasten öldürmeye teşebbüsten ceza alır"
+}
