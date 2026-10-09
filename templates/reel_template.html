@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+    body { 
+        /* Arka plan videosu kaldırıldığı için tüm ekranı kurumsal mavi desen kaplıyor */
+        background-color: #0E1D31 !important; 
+        background-image: 
+            radial-gradient(circle at 85% 15%, rgba(52, 152, 219, 0.4) 0%, transparent 45%),
+            radial-gradient(circle at 10% 90%, rgba(46, 229, 215, 0.3) 0%, transparent 50%) !important;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .text-shadow { text-shadow: 0px 5px 15px rgba(0,0,0,0.6); }
+    .text-shadow-strong { text-shadow: 0px 10px 30px rgba(0,0,0,0.8); }
+  </style>
+</head>
+<body class="w-[1080px] h-[1920px] m-0 p-0 overflow-hidden flex flex-col justify-center relative pt-[240px] pb-[300px] px-12">
+
+  <!-- Tetikleyici Başlık -->
+  <div class="flex flex-col text-[125px] leading-[0.95] font-black uppercase tracking-tighter text-white mb-10 w-full text-shadow-strong">
+    <div>{hook_line1}</div>
+    <div class="text-[#F4C542]">{hook_line2}</div>
+    <div>{hook_line3}</div>
+    <div>{hook_line4}</div>
+  </div>
+
+  <!-- Altında soru -->
+  <div class="text-[52px] text-white font-semibold leading-snug w-[95%] text-left mb-10 text-shadow pr-4">
+    {question_text}
+  </div>
+
+  <!-- Sonra şıklar -->
+  <div class="w-full flex flex-col gap-5">
+    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+        <span class="text-[#F4C542] mr-5 w-[50px]">A)</span> 
+        <span>{option_a}</span>
+    </div>
+    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+        <span class="text-[#F4C542] mr-5 w-[50px]">B)</span> 
+        <span>{option_b}</span>
+    </div>
+    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+        <span class="text-[#F4C542] mr-5 w-[50px]">C)</span> 
+        <span>{option_c}</span>
+    </div>
+    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+        <span class="text-[#F4C542] mr-5 w-[50px]">D)</span> 
+        <span>{option_d}</span>
+    </div>
+  </div>
+
+</body>
+</html>

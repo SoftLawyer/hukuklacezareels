@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A, gece evine giren hırsız B'yi fark eder. Hırsız B korkup <span class=\"text-[#2EE5D7] font-bold\">evden kaçmaya başlar.</span> <br><br>A, sokağa çıkıp arkasından koşan B'ye silahla ateş eder ve onu bacağından vurur.<br><br>A'nın durumu hukuken nedir? 🤔",
+    "option_a": "Meşru müdafaa (Ceza almaz)",
+    "option_b": "Sınırın aşılmasıyla meşru müdafaa",
+    "option_c": "Haksız tahrik altında kasten yaralama",
+    "option_d": "Bilinçli taksirle yaralama"
+}
