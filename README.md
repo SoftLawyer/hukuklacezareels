@@ -40,8 +40,9 @@ JSON yapısı şu şekildedir:
 
 Bu repository, yapay zeka (AI) asistanları ile tam otomatik içerik üretim bandı olarak çalışacak şekilde kodlanmıştır. Kullanıcı asistana sadece **"Sıradakini ver"** komutunu ilettiğinde, asistanın otonom olarak şu adımları uygulaması gerekir:
 
-1. **Konu Seçimi:** Yargıtay kararları ve doktrin ışığında, hukukçuların çok sık karıştırdığı, "ikiye bölen" (gri alanda kalan) yeni ve çarpıcı bir vaka/olay bul.
-2. **JSON Üretimi:** Bu olay için repodaki `example_data.json` yapısına uygun olarak yeni bir `vaka_adi.json` dosyası oluştur (Soru metnindeki önemli yerleri `<span class="text-[#2EE5D7] font-bold">` ile vurgula).
-3. **Render:** Terminalde `python generate.py vaka_adi.json Reel_Vaka_Adi.mp4` komutunu arka planda çalıştır.
-4. **Kopya & Teslimat:** Olayın Yargıtay içtihatlarına dayanan ince detayını (neden o şıkkın doğru olduğunu) anlatan bir Instagram Açıklama (Caption) metni yaz.
-5. **Sunum:** Üretilen `.mp4` dosyasını `open -R` komutuyla kullanıcıya göster ve Caption metnini sohbete yaz.
+1. **Konu Seçimi (Kusursuz Hukuki Netlik):** Yoruma açık, mantık hatası barındıran veya anlatım bozukluğu olan hiçbir vaka KULLANILAMAZ. Sadece **Yargıtay Ceza Genel Kurulu'nun (CGK)** veya yerleşik içtihatların %100 kesin çözdüğü vakalar seçilmelidir. Vaka metni hukuki bir dille, sıfır anlatım bozukluğuyla ve tek anlama gelecek şekilde yazılmalıdır.
+2. **Şıkların Hazırlanması:** Çeldirici şıklar kesinlikle yanlış olmalı, doktrin veya istisnalar sebebiyle "iki şıkkın da doğru olabileceği" hiçbir mantık hatasına yer verilmemelidir.
+3. **JSON Üretimi:** Bu kusursuz olay için repodaki `example_data.json` yapısına uygun olarak yeni bir `vaka_adi.json` dosyası oluştur (Soru metnindeki önemli yerleri `<span class="text-[#2EE5D7] font-bold">` ile vurgula).
+4. **Render:** Terminalde `python generate.py vaka_adi.json Reel_Vaka_Adi.mp4` komutunu arka planda çalıştır.
+5. **Kopya & Teslimat:** Olayın Yargıtay içtihatlarına dayanan ince detayını (neden sadece o şıkkın tartışmasız doğru olduğunu) anlatan kusursuz bir Türkçe ile Instagram Açıklama (Caption) metni yaz.
+6. **Sunum:** Üretilen `.mp4` dosyasını `open -R` komutuyla kullanıcıya göster ve Caption metnini sohbete yaz.
