@@ -42,14 +42,14 @@ def generate_reel(data_json_path, output_mp4_path):
         
     print(f"Generated PNG: {output_png}")
     
-    print("Generating static 15-second Reel video from image...")
-    # Generate 15 second video from the static image using ffmpeg
+    print("Generating static 5-second Reel video from image...")
+    # Generate 5 second video from the static image using ffmpeg
     cmd = [
         'ffmpeg', '-y',
         '-loop', '1',
         '-i', output_png,
         '-c:v', 'libx264',
-        '-t', '15',
+        '-t', '5',
         '-pix_fmt', 'yuv420p',
         output_mp4_path
     ]
