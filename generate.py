@@ -25,15 +25,7 @@ def generate_reel(data_json_path, output_mp4_path):
     html_content = html_content.replace('{option_c}', data.get('option_c', 'Seçenek C'))
     html_content = html_content.replace('{option_d}', data.get('option_d', 'Seçenek D'))
     
-    option_e = data.get('option_e')
-    if option_e:
-        option_e_html = f'''    <div class="flex items-start text-[38px] font-bold text-white text-shadow">
-        <span class="text-[#F4C542] mr-5 w-[50px]">E)</span> 
-        <span>{option_e}</span>
-    </div>'''
-    else:
-        option_e_html = ''
-    html_content = html_content.replace('{option_e_block}', option_e_html)
+
     
     temp_html_path = os.path.join(base_dir, "temp_render.html")
     with open(temp_html_path, 'w', encoding='utf-8') as f:
