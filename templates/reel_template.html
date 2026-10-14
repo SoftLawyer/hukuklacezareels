@@ -17,10 +17,10 @@
     .text-shadow-strong { text-shadow: 0px 10px 30px rgba(0,0,0,0.8); }
   </style>
 </head>
-<body class="w-[1080px] h-[1920px] m-0 p-0 overflow-hidden flex flex-col justify-center relative pt-[240px] pb-[300px] px-12">
+<body class="w-[1080px] h-[1920px] m-0 p-0 overflow-hidden flex flex-col justify-center relative pt-[200px] pb-[200px] px-12">
 
   <!-- Tetikleyici Başlık -->
-  <div class="flex flex-col text-[125px] leading-[0.95] font-black uppercase tracking-tighter text-white mb-10 w-full text-shadow-strong">
+  <div class="flex flex-col text-[120px] leading-[0.95] font-black uppercase tracking-tighter text-white mb-8 w-full text-shadow-strong">
     <div>{hook_line1}</div>
     <div class="text-[#F4C542]">{hook_line2}</div>
     <div>{hook_line3}</div>
@@ -28,28 +28,34 @@
   </div>
 
   <!-- Altında soru -->
-  <div class="text-[52px] text-white font-semibold leading-snug w-[95%] text-left mb-10 text-shadow pr-4">
+  <div class="text-[50px] text-white font-semibold leading-snug w-[95%] text-left mb-8 text-shadow pr-4">
     {question_text}
   </div>
 
   <!-- Sonra şıklar -->
-  <div class="w-full flex flex-col gap-5">
-    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+  <div class="w-full flex flex-col gap-4">
+    <div class="flex items-start text-[38px] font-bold text-white text-shadow">
         <span class="text-[#F4C542] mr-5 w-[50px]">A)</span> 
         <span>{option_a}</span>
     </div>
-    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+    <div class="flex items-start text-[38px] font-bold text-white text-shadow">
         <span class="text-[#F4C542] mr-5 w-[50px]">B)</span> 
         <span>{option_b}</span>
     </div>
-    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+    <div class="flex items-start text-[38px] font-bold text-white text-shadow">
         <span class="text-[#F4C542] mr-5 w-[50px]">C)</span> 
         <span>{option_c}</span>
     </div>
-    <div class="flex items-start text-[40px] font-bold text-white text-shadow">
+    <div class="flex items-start text-[38px] font-bold text-white text-shadow">
         <span class="text-[#F4C542] mr-5 w-[50px]">D)</span> 
         <span>{option_d}</span>
     </div>
+{option_e_block}
+  </div>
+
+  <!-- E şıkkından sonra kırmızı duyuru -->
+  <div class="mt-8 text-[44px] font-black text-[#FF3B30] text-shadow-strong tracking-wide">
+    Cevap hikayede paylaşıldı
   </div>
 
 </body>
