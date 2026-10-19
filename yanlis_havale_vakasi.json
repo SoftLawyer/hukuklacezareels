@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A'nın banka hesabına, tanımadığı bir şirket tarafından yanlışlıkla 500.000 TL havale gelir.<br><br>Şirketin ve bankanın tüm uyarılarına rağmen A, <span class=\"text-[#2EE5D7] font-bold\">parayı iade etmeyip</span> başka hesaplara aktararak harcar.<br><br>A'nın işlediği suç hukuken nedir? 🤔",
+    "option_a": "Nitelikli Dolandırıcılık",
+    "option_b": "Güveni Kötüye Kullanma",
+    "option_c": "Hataen Ele Geçmiş Eşya Üzerinde Tasarruf",
+    "option_d": "Bilişim Hırsızlığı"
+}
