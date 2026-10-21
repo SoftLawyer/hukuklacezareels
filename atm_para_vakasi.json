@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A, ATM'de işlem yapan B'nin kartını alıp gittiğini, ancak para çekme haznesindeki <span class=\"text-[#2EE5D7] font-bold\">5.000 TL nakit parayı</span> unuttuğunu görür.<br><br>Arkada sıra bekleyen A, haznesindeki 5.000 TL'yi alıp cebine koyarak uzaklaşır.<br><br>A'nın işlediği suç hukuken nedir? 🤔",
+    "option_a": "Hırsızlık",
+    "option_b": "Kaybolmuş Eşya Üzerinde Tasarruf",
+    "option_c": "Nitelikli Dolandırıcılık",
+    "option_d": "Güveni Kötüye Kullanma"
+}
