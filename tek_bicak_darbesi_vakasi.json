@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A, tartıştığı B'ye <span class=\"text-[#2EE5D7] font-bold\">tek bir bıçak darbesi</span> vurur. Darbe bacağına isabet eder ve B aşırı kan kaybından ölür.<br><br>A: \"Öldürmek istemedim, korkutacaktım\" der.<br><br>A'nın işlediği suç hukuken nedir? 🤔",
+    "option_a": "Kasten Öldürme",
+    "option_b": "Kasten Yaralama Sonucu Ölüm",
+    "option_c": "Olası Kastla Öldürme",
+    "option_d": "Taksirle Öldürme"
+}
