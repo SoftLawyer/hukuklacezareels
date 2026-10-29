@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "KARIŞTIRIYOR:",
+    "question_text": "A, sokakta karşılaştığı B'ye \"Acil bir arama yapmam lazım\" diyerek rica eder. B'nin uzattığı telefonu alan A, <span class=\"text-[#2EE5D7] font-bold\">konuşur gibi yapıp aniden kaçar.</span><br><br>A'nın bu eylemi hukuken hangi suçu oluşturur? 🤔",
+    "option_a": "Dolandırıcılık",
+    "option_b": "Hırsızlık",
+    "option_c": "Güveni Kötüye Kullanma",
+    "option_d": "Yağma"
+}
