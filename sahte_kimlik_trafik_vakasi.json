@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "Ehliyetsiz araç kullanan A, trafik kontrolünde polise yakalanmamak için <span class=\"text-[#2EE5D7] font-bold\">kardeşi B'nin kimlik bilgilerini</span> söyler. Polis, ceza tutanağını B adına düzenler.<br><br>A'nın bu eylemi hukuken hangi suçu oluşturur? 🤔",
+    "option_a": "Başkasına Ait Kimlik Bilgilerini Kullanma",
+    "option_b": "Resmi Belgenin Düzenlenmesinde Yalan Beyan",
+    "option_c": "İftira",
+    "option_d": "Suç Oluşmaz"
+}
