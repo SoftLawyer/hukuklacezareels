@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "Avukat A, müvekkili B adına icra dairesinden tahsil ettiği 500.000 TL'yi çeker. Parayı müvekkiline vermeyip <span class=\"text-[#2EE5D7] font-bold\">kendi hesabına aktararak harcar.</span><br><br>Avukat A'nın bu eylemi hukuken hangi suçu oluşturur? 🤔",
+    "option_a": "Zimmet",
+    "option_b": "Hizmet Nedeniyle Güveni Kötüye Kullanma",
+    "option_c": "Görevi Kötüye Kullanma",
+    "option_d": "Nitelikli Dolandırıcılık"
+}
