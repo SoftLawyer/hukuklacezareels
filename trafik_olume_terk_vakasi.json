@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A, gece ıssız yolda çarptığı yayayı ağır yaralar. Yaralıyı hastaneye götürmeyip <span class=\"text-[#2EE5D7] font-bold\">yol kenarında bırakıp kaçar.</span> Mağdur kan kaybından ölür.<br><br>A'nın bu eylemi hangi suçu oluşturur? 🤔",
+    "option_a": "İhmali Davranışla Kasten Öldürme",
+    "option_b": "Taksirle Öldürme",
+    "option_c": "Olası Kastla Öldürme",
+    "option_d": "Yardım veya Bildirim Yükümlülüğünü İhlal"
+}
