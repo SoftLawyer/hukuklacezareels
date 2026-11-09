@@ -44,5 +44,20 @@ Bu repository, yapay zeka (AI) asistanları ile tam otomatik içerik üretim ban
 2. **Şıkların Hazırlanması:** Çeldirici şıklar kesinlikle yanlış olmalı, doktrin veya istisnalar sebebiyle "iki şıkkın da doğru olabileceği" hiçbir mantık hatasına yer verilmemelidir. **Şıklarda kesinlikle parantez içi açıklamalara (örneğin "(Ceza almaz)", "(Gasp)" gibi) yer verilmez.** Sorular kesinlikle 4 şıklı (A, B, C, D) hazırlanır (E şıkkı KULLANILMAZ). D şıkkının hemen altında kırmızı renkle **"Cevap hikayede paylaşıldı"** ibaresi yer alır. Bu ibare ve şıklar, Instagram Reels'ın alt kısmındaki açıklama/profil/müzik arayüzünün arkasında kalmayacak şekilde (ekranın alt %35'lik güvenli boşluğunun üzerinde) konumlandırılır.
 3. **JSON Üretimi:** Bu kusursuz olay için repodaki `example_data.json` yapısına uygun olarak yeni bir `vaka_adi.json` dosyası oluştur (Soru metnindeki önemli yerleri `<span class="text-[#2EE5D7] font-bold">` ile vurgula).
 4. **Render (5 Saniye):** Terminalde `python generate.py vaka_adi.json Reel_Vaka_Adi.mp4` komutunu çalıştır (videolar 5 saniyelik statik döngü olarak üretilir).
-5. **Kopya & Teslimat:** Olayın Yargıtay içtihatlarına dayanan ince detayını (neden sadece o şıkkın tartışmasız doğru olduğunu) anlatan kusursuz bir Türkçe ile Instagram Açıklama (Caption) metni yaz.
-6. **Sunum:** Üretilen `.mp4` dosyasını `open -R` komutuyla kullanıcıya göster ve Caption metnini sohbete yaz.
+5. **Kopya & Teslimat:** Olayın Yargıtay içtihatlarına dayanan ince detayını (neden sadece o şıkkın tartışmasız doğru olduğunu) anlatan kusursuz bir Türkçe ile Instagram Açıklama (Caption) metni yaz. Her açıklama metninin sonuna zorunlu olarak şu HukukLA tanıtım bloğunu ekle:
+   ```text
+   Mesleki pratiğini güçlendir, haklarını bil, güvenilir ve hayat kurtaran pratik hukuk bilgileri için takip etmeyi unutma!
+
+   HukukLA size;
+   ✅ En güncel mevzuatı getirir.
+   ✅ En kaliteli soruları hazırlar.
+   🌟 Arkasında hukukçu uzmanlar vardır.
+   ✅ Konu çalışmayı çok kolay hale getirir.
+   ✅ On binlerce soru ile tüm soru çeşitlerini gösterir.
+   ✅ Hızlı iletişim kurabilme imkanı sağlar.
+   🌟 Deneme sınavları şaşırtıcı derecede belirleyicidir.
+   Size sadece indirmek kalır.
+
+   Takip et, kaçırma 👆 Fakülte derslerinden HMGS'ye, Adli ve İdari Yargı Hakimliğine, İcra Müdürlüğüne kadar tüm yol HukukLA'da. Profildeki linkten indir!
+   ```
+6. **Sunum:** Üretilen `.mp4` dosyasını `open -R` komutuyla kullanıcıya göster, cevabı ve Yargıtay analizini en başta net şekilde belirt ve güncel Caption metnini sohbete yaz.
