@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A, yakalanmamak amacıyla arkadaşı B'ye ait nüfus cüzdanındaki orijinal fotoğrafı sökerek <span class=\"text-[#2EE5D7] font-bold\">yerine kendi fotoğrafını yapıştırır.</span> Başka hiçbir tahrifat yapmaz.<br><br>A'nın bu eylemi hangi suçu oluşturur? 🤔",
+    "option_a": "Resmi Belgeyi Bozmak",
+    "option_b": "Resmi Belgede Sahtecilik",
+    "option_c": "Güveni Kötüye Kullanma",
+    "option_d": "Başkasına Ait Kimliği Kullanma"
+}
