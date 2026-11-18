@@ -1,0 +1,11 @@
+{
+    "hook_line1": "ÇOĞU",
+    "hook_line2": "HUKUKÇU",
+    "hook_line3": "BUNU",
+    "hook_line4": "ÇÖZEMİYOR:",
+    "question_text": "A, 2.000 TL çekmesi için şifresiyle kartını veren komşusu B'nin hesabından <span class=\"text-[#2EE5D7] font-bold\">10.000 TL çeker.</span> 2.000 TL'yi verip kalan 8.000 TL'yi cebine atar.<br><br>A'nın bu eylemi hangi suçu oluşturur? 🤔",
+    "option_a": "Güveni Kötüye Kullanma",
+    "option_b": "Banka Kartının Kötüye Kullanılması",
+    "option_c": "Bilişim Sistemiyle Hırsızlık",
+    "option_d": "Nitelikli Dolandırıcılık"
+}
